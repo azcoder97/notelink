@@ -23,6 +23,44 @@ linter:
   rules:
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    # 🚫 Avoid common mistakes
+    avoid_print: true                  # Use proper logging instead of print
+    avoid_empty_else: true             # Prevent empty else blocks
+    avoid_redundant_argument_values: true
+    avoid_unused_constructor_parameters: true
+    avoid_single_cascade_in_expression_statements: true
+
+    # ✨ Performance & Const
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    use_is_even_rather_than_modulo: true
+
+    # 🧱 Widget Best Practices
+    use_key_in_widget_constructors: true
+    prefer_const_declarations: true
+    sort_constructors_first: true
+    sized_box_for_whitespace: true
+    avoid_unnecessary_containers: true
+
+    # 📐 Type Safety & Readability
+    always_specify_types: true
+    annotate_overrides: true
+    prefer_typing_uninitialized_variables: true
+    always_put_required_named_parameters_first: true
+    avoid_dynamic_calls: true
+    omit_local_variable_types: false
+
+    # 🧹 Code Cleanliness
+    curly_braces_in_flow_control_structures: true
+    empty_constructor_bodies: false
+    unnecessary_this: true
+    unnecessary_new: true
+    unnecessary_lambdas: true
+    prefer_expression_function_bodies: true
+    avoid_positional_boolean_parameters: true
+    prefer_interpolation_to_compose_strings: true
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

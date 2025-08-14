@@ -1,16 +1,19 @@
-# notelink
+# Notes + Chat App
 
-A new Flutter project.
+A multi-platform Flutter app with Firebase Authentication, Notes, and Chat features.  
+Built for portfolio and advanced Flutter concepts demonstration.
 
-## Getting Started
+## Features (Planned)
+- Firebase Authentication
+- Create, edit, delete notes
+- Chat functionality
+- Responsive UI
+- Multi-platform: Android, iOS, Web, Windows, macOS
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter 3.x
+- Riverpod for state management
+- Firebase for backend
+- Material 3 Design
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
